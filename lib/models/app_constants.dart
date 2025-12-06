@@ -1,16 +1,6 @@
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class AppConstants {
-  // //API Configuration
-  // static const String baseUrl =
-  //     'http://taniapp.ugahari.my.id/project_api_taniapp_ta/';
-  // static const Duration timeoutDuration = Duration(seconds: 30);
-  // static const Duration connectTimeout = Duration(seconds: 15);
-
-  // // App Configuration
-  // static const String appName = 'TA Project';
-  // static const String appVersion = '1.0.0';
-  //API Configuration
   static String get baseUrl =>
       dotenv.env['API_BASE_URL'] ?? 'https://api.example.com/';
 

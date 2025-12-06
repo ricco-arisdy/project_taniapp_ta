@@ -18,9 +18,6 @@ import 'package:project_taniapp_ta/viewsModels/register_view_models.dart';
 import 'package:project_taniapp_ta/viewsModels/reset_password_view_models.dart';
 import 'package:provider/provider.dart';
 
-// void main() {
-//   runApp(const MyApp());
-// }
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
